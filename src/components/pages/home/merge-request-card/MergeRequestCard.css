@@ -1,0 +1,39 @@
+.mr-details .column {
+    padding: 0.5rem 1rem !important;
+}
+
+.assignee-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.no-assignee {
+    color: white;
+}
+
+.card-red {
+    background-color: #DF523B !important;
+    color: #404b54 !important;
+}
+
+.card-green {
+    background-color: #1AAA55 !important;
+    color: #404b54 !important;
+}
+
+.card-orange {
+    background-color: #FC9403 !important;
+    color: #404b54 !important;
+}
+
+.author-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.past-due {
+    font-weight: bold;
+    color: #DF523B;
+}

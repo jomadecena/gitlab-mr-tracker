@@ -1,0 +1,34 @@
+{
+  "name": "gitlab-mr-tracker",
+  "version": "0.1.0",
+  "description": "A build monitor application showing all Merge Requests of your Gitlab Projects",
+  "author": "Joma Decena <joma.decena@gmail.com>",
+  "keywords": [
+    "build monitor",
+    "gitlab"
+  ],
+  "private": true,
+  "dependencies": {
+    "connected-react-router": "^4.5.0",
+    "filereader": "^0.10.3",
+    "fitch": "^0.11.0",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
+    "query-string": "^6.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.1",
+    "redux-promise-middleware": "^5.1.1",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.80.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

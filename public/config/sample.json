@@ -1,0 +1,23 @@
+{
+  "rules": [
+    REFRESH_DURATION_IN_SECONDS,
+    MAXIMUM_OPEN_IN_DAYS,
+    UPVOTES,
+    {
+      "high": {
+        "label": "CONTAINS_LABEL",
+        "branch": "STARTS_WITH",
+        "project": "REPOSITORY_NAME_EXACT_MATCH"
+      },
+      "medium": {},
+      "low": {}
+    }
+  ],
+  "projects": [
+    {
+      "name": "YOUR_CUSTOMIZABLE_NAME",
+      "namespace": "REPOSITORY_NAMESPACE",
+      "project": "REPOSITORY_NAME"
+    }
+  ]
+}

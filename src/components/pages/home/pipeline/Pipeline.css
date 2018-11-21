@@ -1,0 +1,19 @@
+.success {
+    color: #1AAA55;
+    font-weight: bold;
+}
+
+.failed {
+    color: #DF523B;
+    font-weight: bold;
+}
+
+.running {
+    color: #2E87E0;
+    font-weight: bold;
+}
+
+.pending {
+    color: #FC9403;
+    font-weight: bold;
+}

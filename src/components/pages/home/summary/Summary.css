@@ -1,0 +1,18 @@
+#Summary {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#Summary-logo {
+    text-align: center;
+}
+
+.Summary-detail {
+    font-size: 72px;
+    line-height: 1em;
+}
+
+.Summary-label {
+    font-size: 18px;
+}
